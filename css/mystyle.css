@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: arial;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: linear-gradient(#24252A,black);
+    opacity:86%;
+}
+.logo
+{   
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(228, 220, 220);
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+a{
+    font: size 16px;
+    font-weight: 500;
+    color: rgb(168, 148, 148);
+    cursor: pointer;
+    text-decoration: none;
+}
+button{
+    font: size 16px;
+    font-weight: 500;
+    color: rgb(0, 8, 20);
+    cursor: pointer;
+    text-decoration: none;
+
+}
+button
+{
+    background-color:y;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.4s ease 0.s;
+}
+nav li a:hover{
+    color:white;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color:rgb(34, 34, 65);
+}
+.maindiv
+{
+    height: 450px;
+    width:100%;
+    left:0%;
+    position: absolute;
+    top: 9%;
+    background-image: url("abc.jpg");
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear ;
+}
+ @keyframes slider{
+0%{background-image: url("abc.jpg");}
+35%
+{background-image: url("xyz.jpg");}
+
+75%
+{background-image: url("jkl.jpg");}
+
+ }
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 20px;
+    background-color: rgb(45, 39, 39);
+    color: rgb(20, 20, 20);
+    text-align: center;
+    
+
+ }
+ input[type=text] ,input[type=password]{
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    margin-left: 20px;
+  }
+  input[type=text]:focus,input[type=password]:focus {
+    width: 70%;
+  }
+  form{
+    padding-left: 8%;
+    padding-bottom: 5%;
+    margin-left: 30%;
+    padding-top: 5%;
+    gap:30px;
+    border:rgb(223, 149, 20); 
+    border-width:5px; 
+    border-style:solid;
+    margin-right:30%;
+    margin-top:8%;
+    margin-bottom:15%;
+
+}
+  .set{
+    margin-left: 30%;
+    margin-top:10%;
+    margin-right:30%;
+    font-size:30px;
+    border: 2px;
+    border-color: black;
+    box-sizing: border-box;
+    padding:30px;
+  }
+ .home{
+padding:40px;
+border:1px solid black;
+margin-bottom:10px;
+margin-left: 10px;
+margin-right:10px;
+  }
