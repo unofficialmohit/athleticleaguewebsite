@@ -3,7 +3,7 @@ Website Made with the HTML, CSS, JAVASCRIPT, PHP with Working Database (MySQL)
 
 In this website there is a working login/signup form 
 
-there is and option to register for an event which will only work after login , 
+there is an option to register for an event which will only work after login , 
 
 without login it will give popup window which says please login first.
 
