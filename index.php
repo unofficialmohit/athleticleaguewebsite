@@ -3,6 +3,7 @@
 <head>
 <title>WELCOME</title>
 <link rel="stylesheet" type"text/css" href="css/mystyle.css">
+<link rel="icon" type="image/x-icon" href="/image/logo.png">
 </head>
 <body>
 <?php 

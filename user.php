@@ -3,14 +3,14 @@ session_start();
 $user=$_POST['user'];
 $pass=$_POST['pass'];
 $pass=md5($pass);
-$_SESSION['username']=$user;
-$_SESSION['password']=$pass;
 $con=mysqli_connect("localhost","root","","sport");
 $sql="select * from userinfo where username='$user' and password='$pass'";
 $result=mysqli_query($con,$sql);
 $count=mysqli_num_rows($result);
 if($count==1)
-{
+{   
+    $_SESSION['username']=$user;
+    $_SESSION['password']=$pass;
     echo("
     <script LANGUAGE='JAVASCRIPT'>
     window.alert('LOGIN SUCCESFULL');

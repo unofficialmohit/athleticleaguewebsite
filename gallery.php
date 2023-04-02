@@ -2,6 +2,7 @@
 <head>
 <title>Gallery</title>
 <link rel="stylesheet" href="css/mystyle.css">
+<link rel="icon" type="image/x-icon" href="/image/logo.png">
 <style>
 table, th, td {
     margin-right:30%;
