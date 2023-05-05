@@ -2,7 +2,7 @@
 
 Website Made with the HTML, CSS, JAVASCRIPT, PHP with Working Database (MySQL)
 
-Live Working : [Athletic League](https://www.athleticleague.thats.im/index.php)
+Live Working : [Athletic League Website](https://www.athleticleague.thats.im/index.php)
 
 In this website there is a working login/signup form 
 
