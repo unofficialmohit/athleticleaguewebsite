@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 30, 2023 at 09:14 AM
+-- Generation Time: May 05, 2023 at 02:13 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -34,13 +34,6 @@ CREATE TABLE `event` (
   `sevent` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `event`
---
-
-INSERT INTO `event` (`username`, `country`, `acard`, `sevent`) VALUES
-('abc', 'india', '7498729435', 'Track and field');
-
 -- --------------------------------------------------------
 
 --
@@ -57,13 +50,6 @@ CREATE TABLE `userinfo` (
   `gender` varchar(10) NOT NULL,
   `gplay` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `userinfo`
---
-
-INSERT INTO `userinfo` (`username`, `password`, `fathername`, `age`, `email`, `phone`, `gender`, `gplay`) VALUES
-('abc', '900150983cd24fb0d6963f7d28e17f72', 'abc', '22', 'abc@abc.com', '3242342342', 'male', 'abc,xyz');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>WELCOME</title>
-<link rel="stylesheet" type"text/css" href="css/mystyle.css">
+<link rel="stylesheet" type"text/css" href="css/mystyle.css?sds34">
 <link rel="icon" type="image/x-icon" href="/image/logo.png">
 </head>
 <body>
